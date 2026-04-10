@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "swot_sda"
+version = "0.1.0"
+description = "Score-based data assimilation for SWOT SSH and SST reconstruction"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "numpy",
+    "xarray",
+    "xrft",
+    "tqdm",
+    "matplotlib",
+    "cmocean",
+    "omegaconf",
+    "hydra-core",
+    "dask",
+    "zarr",
+    # From vendored _sda (Rozet & Louppe 2023):
+    "zuko",       # _sda.nn + _sda.score
+    "h5py",       # _sda.utils (TrajectoryDataset)
+    "POT",        # _sda.utils (emd)
+    "importlib_metadata",  # _modulus.model_registry
+    # From vendored _modulus (NVIDIA Modulus, Apache-2.0):
+    "fsspec",
+    "s3fs",
+    "requests",
+    # Optional — only needed for KolmogorovFlow in _sda.mcs:
+    #   jax, jax-cfd
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
