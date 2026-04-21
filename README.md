@@ -267,6 +267,10 @@ Karras, T., Laine, S., Aittala, M., Hellsten, J., Lehtinen, J., & Aila, T. (2022
     Elucidating the Design Space of Diffusion-Based Generative Models.
     Advances in Neural Information Processing Systems, 35.
 
+Martin, S., et al. (2025). Generative Data Assimilation for Surface Ocean 
+    State Estimation From Multi-Modal Satellite Observations.
+    Journal of Advances in Modeling Earth Systems, 17. 
+
 Manshausen, P., et al. (2024). Generative Data Assimilation of Sparse Weather Station
     Observations at Kilometer Scales.
     Advances in Neural Information Processing Systems, 38.
