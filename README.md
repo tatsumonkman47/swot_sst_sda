@@ -1,6 +1,6 @@
 # swot_sda
 
-Score-based data assimilation (SDA) for SWOT sea surface height (SSH) and sea surface temperature (SST) reconstruction. Fits pre-trained diffusion models to sparse satellite observations at inference time, producing probabilistic ensemble time series over 128×128 spatial tiles. Developed for the SWOT SUM03 project (Monkman et al., in preparation).
+Score-based data assimilation (SDA) for SWOT sea surface height (SSH) and sea surface temperature (SST) reconstruction. Fits pre-trained diffusion models to sparse satellite observations at inference time, producing probabilistic ensemble time series over 128×128 spatial tiles. Developed for the SWOT SUM03 project (Monkman et al., 2026, in press).
 
 ---
 
